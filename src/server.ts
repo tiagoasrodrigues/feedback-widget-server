@@ -1,5 +1,7 @@
-const teste = 1
+import express from "express";
 
-async function testes() {
-  return "teste ok"
-}
+const app = express();
+
+app.listen(3334, () => {
+  console.log("HTTP server running")
+})
